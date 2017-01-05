@@ -2,7 +2,9 @@ package com.sencha.gxt.theme.grayext.client.box;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.resources.client.ClientBundle;
-import com.sencha.gxt.theme.gray.client.window.GrayWindowAppearance;
+import com.sencha.gxt.theme.grayext.client.window.GrayWindowAppearance;
+import com.sencha.gxt.theme.grayext.client.window.GrayWindowAppearance.GrayWindowResources;
+import com.sencha.gxt.theme.grayext.client.window.GrayWindowAppearance.GrayWindowStyle;
 
 public class GrayMessageBoxAppearance extends GrayWindowAppearance {
 

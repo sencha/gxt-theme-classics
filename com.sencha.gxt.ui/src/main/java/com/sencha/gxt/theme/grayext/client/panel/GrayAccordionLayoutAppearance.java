@@ -3,7 +3,6 @@ package com.sencha.gxt.theme.grayext.client.panel;
 import com.google.gwt.core.client.GWT;
 import com.sencha.gxt.theme.base.client.panel.AccordionLayoutBaseAppearance;
 import com.sencha.gxt.theme.base.client.widget.HeaderDefaultAppearance;
-import com.sencha.gxt.theme.gray.client.panel.GrayAccordionHeaderAppearance;
 
 public class GrayAccordionLayoutAppearance extends AccordionLayoutBaseAppearance {
   

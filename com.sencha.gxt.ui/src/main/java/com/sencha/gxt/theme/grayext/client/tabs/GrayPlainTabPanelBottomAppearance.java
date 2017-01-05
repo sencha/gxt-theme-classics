@@ -3,9 +3,8 @@ package com.sencha.gxt.theme.grayext.client.tabs;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.safehtml.shared.SafeHtml;
 import com.google.gwt.safehtml.shared.SafeHtmlBuilder;
-import com.sencha.gxt.theme.gray.client.tabs.GrayPlainTabPanelAppearance.GrayPlainTabPanelResources;
-import com.sencha.gxt.theme.gray.client.tabs.GrayPlainTabPanelAppearance.GrayPlainTabPanelStyle;
-import com.sencha.gxt.theme.gray.client.tabs.GrayTabPanelBottomAppearance;
+import com.sencha.gxt.theme.grayext.client.tabs.GrayPlainTabPanelAppearance.GrayPlainTabPanelResources;
+import com.sencha.gxt.theme.grayext.client.tabs.GrayPlainTabPanelAppearance.GrayPlainTabPanelStyle;
 import com.sencha.gxt.widget.core.client.PlainTabPanel;
 import com.sencha.gxt.widget.core.client.PlainTabPanel.PlainTabPanelBottomAppearance;
 

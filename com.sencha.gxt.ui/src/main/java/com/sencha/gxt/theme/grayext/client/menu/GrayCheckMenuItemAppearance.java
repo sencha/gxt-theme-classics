@@ -3,7 +3,7 @@ package com.sencha.gxt.theme.grayext.client.menu;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.resources.client.ClientBundle;
 import com.sencha.gxt.theme.base.client.menu.CheckMenuItemBaseAppearance;
-import com.sencha.gxt.theme.gray.client.menu.GrayMenuItemAppearance.GrayMenuItemResources;
+import com.sencha.gxt.theme.grayext.client.menu.GrayMenuItemAppearance.GrayMenuItemResources;
 
 public class GrayCheckMenuItemAppearance extends CheckMenuItemBaseAppearance {
 

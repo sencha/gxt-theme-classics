@@ -9,7 +9,6 @@ import com.sencha.gxt.theme.base.client.frame.NestedDivFrame;
 import com.sencha.gxt.theme.base.client.frame.NestedDivFrame.NestedDivFrameStyle;
 import com.sencha.gxt.theme.base.client.panel.FramedPanelBaseAppearance;
 import com.sencha.gxt.theme.base.client.widget.HeaderDefaultAppearance;
-import com.sencha.gxt.theme.blue.client.panel.BlueHeaderFramedAppearance;
 
 public class BlueFramedPanelAppearance extends FramedPanelBaseAppearance {
 

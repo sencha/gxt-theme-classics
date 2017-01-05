@@ -3,9 +3,8 @@ package com.sencha.gxt.theme.blueext.client.tabs;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.safehtml.shared.SafeHtml;
 import com.google.gwt.safehtml.shared.SafeHtmlBuilder;
-import com.sencha.gxt.theme.blue.client.tabs.BluePlainTabPanelAppearance.BluePlainTabPanelResources;
-import com.sencha.gxt.theme.blue.client.tabs.BluePlainTabPanelAppearance.BluePlainTabPanelStyle;
-import com.sencha.gxt.theme.blue.client.tabs.BlueTabPanelBottomAppearance;
+import com.sencha.gxt.theme.blueext.client.tabs.BluePlainTabPanelAppearance.BluePlainTabPanelResources;
+import com.sencha.gxt.theme.blueext.client.tabs.BluePlainTabPanelAppearance.BluePlainTabPanelStyle;
 import com.sencha.gxt.widget.core.client.PlainTabPanel;
 import com.sencha.gxt.widget.core.client.PlainTabPanel.PlainTabPanelBottomAppearance;
 

@@ -3,7 +3,6 @@ package com.sencha.gxt.theme.grayext.client.panel;
 import com.google.gwt.core.client.GWT;
 import com.sencha.gxt.theme.base.client.panel.ContentPanelBaseAppearance;
 import com.sencha.gxt.theme.base.client.widget.HeaderDefaultAppearance;
-import com.sencha.gxt.theme.gray.client.panel.GrayHeaderAppearance;
 
 public class GrayContentPanelAppearance extends ContentPanelBaseAppearance {
 

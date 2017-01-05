@@ -2,7 +2,9 @@ package com.sencha.gxt.theme.blueext.client.box;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.resources.client.ClientBundle;
-import com.sencha.gxt.theme.blue.client.window.BlueWindowAppearance;
+import com.sencha.gxt.theme.blueext.client.window.BlueWindowAppearance;
+import com.sencha.gxt.theme.blueext.client.window.BlueWindowAppearance.BlueWindowResources;
+import com.sencha.gxt.theme.blueext.client.window.BlueWindowAppearance.BlueWindowStyle;
 
 public class BlueMessageBoxAppearance extends BlueWindowAppearance {
 

@@ -4,7 +4,6 @@ import com.google.gwt.core.client.GWT;
 import com.google.gwt.resources.client.ImageResource;
 import com.google.gwt.resources.client.ImageResource.ImageOptions;
 import com.google.gwt.resources.client.ImageResource.RepeatStyle;
-import com.sencha.gxt.theme.gray.client.panel.GrayHeaderAppearance;
 
 public class GrayHeaderFramedAppearance extends GrayHeaderAppearance {
 

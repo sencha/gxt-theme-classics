@@ -3,7 +3,7 @@ package com.sencha.gxt.theme.blueext.client.menu;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.resources.client.ClientBundle;
 import com.sencha.gxt.theme.base.client.menu.CheckMenuItemBaseAppearance;
-import com.sencha.gxt.theme.blue.client.menu.BlueMenuItemAppearance.BlueMenuItemResources;
+import com.sencha.gxt.theme.blueext.client.menu.BlueMenuItemAppearance.BlueMenuItemResources;
 
 public class BlueCheckMenuItemAppearance extends CheckMenuItemBaseAppearance {
 

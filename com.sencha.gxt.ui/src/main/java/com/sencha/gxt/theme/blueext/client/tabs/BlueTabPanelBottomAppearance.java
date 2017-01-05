@@ -3,7 +3,6 @@ package com.sencha.gxt.theme.blueext.client.tabs;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.safehtml.shared.SafeHtml;
 import com.sencha.gxt.core.client.dom.XElement;
-import com.sencha.gxt.theme.blue.client.tabs.BlueTabPanelAppearance;
 import com.sencha.gxt.widget.core.client.TabPanel.TabPanelBottomAppearance;
 
 public class BlueTabPanelBottomAppearance extends BlueTabPanelAppearance implements TabPanelBottomAppearance {

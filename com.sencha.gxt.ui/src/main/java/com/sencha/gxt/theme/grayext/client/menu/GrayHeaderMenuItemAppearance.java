@@ -1,9 +1,8 @@
 package com.sencha.gxt.theme.grayext.client.menu;
 
 import com.google.gwt.core.client.GWT;
-import com.google.gwt.dom.client.Element;
 import com.google.gwt.resources.client.CssResource;
-import com.sencha.gxt.theme.gray.client.menu.GrayItemAppearance;
+import com.google.gwt.dom.client.Element;
 import com.sencha.gxt.widget.core.client.menu.HeaderMenuItem.HeaderMenuItemAppearance;
 
 public class GrayHeaderMenuItemAppearance extends GrayItemAppearance implements HeaderMenuItemAppearance {
