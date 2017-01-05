@@ -1,4 +1,4 @@
-# GXT Blue and Gray theme Source
+# GXT Blue and Gray Theme Source
 This project contains the classic Blue and Gray theme source extracted from the GXT 4.0.2 SDK. 
 The goal here is to provide the the classic appearances so you can modify the appearances html, gss/css and image/icon resources directly to change the theme. 
 
