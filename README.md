@@ -9,16 +9,16 @@ The goal here is to provide the the classic appearances so you can modify the ap
  
 2. Add the source to your module descriptor with one of the below 
 
-* Overriding the classic blue theme
-```
-<inherits name='com.sencha.gxt.theme.blueext.BlueExt' />
-```
+* Using the copy of the classic blue theme
+ ```
+ <inherits name='com.sencha.gxt.theme.blueext.BlueExt' />
+ ```
 
 
-* Overriding the classic gray theme
-```
-<inherits name='com.sencha.gxt.theme.grayext.GrayExt' />
-```
+* Using the copy of the classic gray theme
+ ```
+ <inherits name='com.sencha.gxt.theme.grayext.GrayExt' />
+ ```
 
 ## Changes
 When using appearanes, mark the changes in them and gss source files.
