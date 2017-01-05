@@ -1,6 +1,0 @@
-
-@if (is("user.agent", "safari")) {
-  :focus {
-    outline: none !important;
-  }
-}

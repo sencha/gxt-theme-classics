@@ -1,6 +1,0 @@
-
-@if (is("gxt.user.agent", "ie10")) {
-  .text::-ms-clear {
-    display: none;
-  }
-}

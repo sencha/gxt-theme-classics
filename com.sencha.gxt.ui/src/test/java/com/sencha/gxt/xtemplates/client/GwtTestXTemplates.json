@@ -1,9 +1,0 @@
-{
-  "stocks":[{
-      "name":"Apple Inc.", "symbol":"AAPL", "open":125.64, "last":123.43, "date": "1301604543796"
-    },
-    {
-      "name":"Cisco Systems, Inc.", "symbol":"CSCO", "open":25.84, "last":26.3, "date": "1301604511857"
-    }
-  ]
-}
