@@ -4,7 +4,7 @@ Extending GXT classic blue and gray theme appearances source. (Latest, 4.0.2)
 ## Extending blue or gray
 
 1. Import the source into your source folder
- - Copy the source from `com.sencha.gxt.ui.*` module and add it to your source folder 
+ - Copy the source from `com.sencha.gxt.ui/src/main/java` module to your source folder. 
  
 2. Add the source to your module descriptor with one of the below 
 
