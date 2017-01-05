@@ -19,6 +19,10 @@ Extending GXT classic blue and gray theme appearances source. (Latest, 4.0.2)
 <inherits name='com.sencha.gxt.theme.grayext.GrayExt' />
 ```
 
+## Changes
+When using appearanes, mark the changes in them and gss source files.
+This helps with appearance upgrades when a major version shows up. 
+
 
 ## Support
 If you get lost ask for more details from support. 
