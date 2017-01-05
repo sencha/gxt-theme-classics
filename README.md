@@ -21,7 +21,7 @@ The goal here is to provide the the classic appearances so you can modify the ap
  ```
 
 ## Changes
-When using appearanes, mark the changes in them and gss source files.
+When making changes to the copied appearanes, mark the changes in them and gss source files.
 This helps with appearance upgrades when a major version shows up. 
 
 
