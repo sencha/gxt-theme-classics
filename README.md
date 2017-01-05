@@ -1,5 +1,5 @@
-# gxt-theme-classics
-Extending GXT classic blue and gray theme appearances source. (Latest, 4.0.2)
+# GXT 4.0.2 Blue and Gray theme Source
+This project continas the Blue and Gray theme source extracted from the SDK, so the appearances can be quickly modified. 
 
 ## Extending blue or gray
 
