@@ -1,0 +1,77 @@
+
+.menu {
+  border: 1px solid;
+  z-index: 15000;
+  zoom: 1;
+  background: repeat-y;
+  outline: 0 none;
+}
+
+@if (is("user.agent", "gecko1_8") || is("user.agent", "gecko")) {
+  .menu {
+    -moz-outline: none;
+  }
+}
+
+@if (is("user.agent", "ie8")) {
+  .menu {
+    zoom: 1;
+    overflow: hidden;
+  }
+}
+
+.menu a {
+  text-decoration: none !important;
+}
+
+.menuList {
+  padding: 2px;
+  background: transparent;
+  border: 0 none;
+  overflow: hidden;
+  overflow-y: hidden;
+}
+
+@if (is("user.agent", "ie8")) {
+  .menuList {
+    position: relative;
+  }
+}
+
+.dateMenu {
+  padding: 0 !important;
+}
+
+.dateMenu .menuList {
+  padding: 0;
+}
+
+.menu .menuScroller {
+  margin: 0;
+  width: 100%;
+  background-position: center;
+}
+
+.menu .menuScroller {
+  background-repeat: no-repeat;
+  height: 8px;
+  line-height: 8px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.menu .menuScrollerActive {
+  height: 6px;
+  line-height: 6px;
+}
+
+.menuListItemIndent {
+  padding-left: 27px !important;
+}
+
+.menuRadioGroup {
+}
+
+.noSeparator {
+  background-image: none;
+}

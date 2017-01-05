@@ -1,0 +1,48 @@
+
+.header {
+  padding: 4px 3px 2px 5px;
+  position: relative;
+}
+
+.headerIcon {
+  float: left;
+}
+
+.headerHasIcon .headerIcon {
+  width: 18px;
+}
+
+.headerHasIcon .headerText {
+  left: 20px;
+}
+
+.headerText {
+  font-family: tahoma,arial,verdana,sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 15px;
+}
+
+@if (eval('com.sencha.gxt.core.client.GXT.getVersion().getLicenseType().equals("eval")')) {
+  .headerBar:before {
+    content: "Sencha GXT Trial";
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    position: absolute;
+    white-space: nowrap;
+    margin-left: -9em;
+    overflow: hidden;
+    font-size: 0.9em;
+  }
+
+  /* This is not ideal, but panels are not doing deferred binding on HeaderAppearance. */
+  @if (is("gxt.theme", "triton")) {
+    .headerBar:before {
+      margin-left: -8em;
+    }
+  }
+}
+
+.headerBar {
+  float: right;
+}

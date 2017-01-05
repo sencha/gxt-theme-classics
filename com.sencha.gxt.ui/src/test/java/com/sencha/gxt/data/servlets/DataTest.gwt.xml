@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.7.0//EN"
+    "http://gwtproject.org/doctype/2.7.0/gwt-module.dtd">
+<module>
+  <!-- Tests the data package with a few servlets -->
+  <inherits name="com.sencha.gxt.data.Data" />
+  <inherits name='com.sencha.gxt.ui.resources.Resources' />
+
+  <source path="client" />
+  <source path="shared" />
+  <!-- Simple RPC service -->
+  <servlet class="com.sencha.gxt.data.servlets.server.TestDataServlet" path="/TestDataService" />
+
+  <!-- Simple JSONP service -->
+  <servlet class="com.sencha.gxt.data.servlets.server.JsonpServlet" path="/jsonp" />
+
+  <!-- RF wiring -->
+  <servlet class="com.google.web.bindery.requestfactory.server.RequestFactoryServlet" path="/gwtRequest" />
+</module>

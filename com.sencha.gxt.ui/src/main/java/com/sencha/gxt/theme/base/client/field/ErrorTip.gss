@@ -1,0 +1,19 @@
+
+.heading {
+  font: bold 11px tahoma, arial, helvetica, sans-serif;
+  color: #444;
+}
+
+.text {
+  font: 11px tahoma, arial, helvetica, sans-serif;
+  color: #444;
+  padding-left: 0;
+}
+
+.textWrap {
+  gwt-sprite: "errorIcon";
+  width: auto;
+  height: auto;
+  background-position: -1 4px;
+  padding-left: 20px;
+}

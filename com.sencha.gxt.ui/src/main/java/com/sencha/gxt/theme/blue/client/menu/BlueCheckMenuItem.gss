@@ -1,0 +1,5 @@
+
+.menuItemChecked {
+  border-color: #a3bae9 !important;
+  background-color: #def8f6;
+}

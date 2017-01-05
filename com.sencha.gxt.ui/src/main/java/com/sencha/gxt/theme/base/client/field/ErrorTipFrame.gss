@@ -1,0 +1,8 @@
+
+.content {
+  background-color: white;
+}
+
+.bottomLeft {
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,15 @@
+
+.active {
+  gwt-sprite: "itemOver";
+  width: auto;
+  height: auto;
+  background-color: #ebf3fd;
+  background-repeat: repeat-x;
+  background-position: left bottom;
+  border: 1px solid #aaccf6;
+  padding: 0;
+}
+
+.active a {
+  color: #233d6d;
+}

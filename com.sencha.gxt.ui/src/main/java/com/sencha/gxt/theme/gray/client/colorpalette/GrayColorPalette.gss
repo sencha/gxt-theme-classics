@@ -1,0 +1,14 @@
+
+.anchor {
+  border-color: #fff;
+}
+
+.hover, 
+.selected {
+  border-color: #b1b1b1;
+  background-color: #eaeaea;
+}
+
+.wrapper {
+  border-color: #a7a7a7;
+}

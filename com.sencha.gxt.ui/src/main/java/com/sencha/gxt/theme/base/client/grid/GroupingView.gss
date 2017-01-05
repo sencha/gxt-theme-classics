@@ -1,0 +1,32 @@
+@def GROUP_EXPAND eval('com.sencha.gxt.core.client.util.ImageHelper.createModuleBasedUrl("base/images/grid/group-expand-sprite.gif")');
+
+.group, 
+.groupHead {
+  zoom: 1;
+}
+
+.group .grid-cell {
+  border-bottom: 2px solid;
+  cursor: pointer;
+  padding-top: 4px;
+  border-bottom-color: #99bbe8;
+}
+
+.group .grid-cell .grid-cellInner {
+  background: transparent no-repeat 3px -47px;
+  padding: 4px 4px 4px 17px;
+}
+
+.groupCollapsed .grid-cell .grid-cellInner {
+  background-position: 3px 3px;
+}
+
+.bodyCollapsed {
+  display: none;
+}
+
+.group .grid-cell .grid-cellInner {
+  background-image: GROUP_EXPAND;
+  color: #3764a0;
+  font: bold 11px tahoma, arial, helvetica, sans-serif;
+}

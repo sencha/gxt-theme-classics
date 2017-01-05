@@ -1,0 +1,6 @@
+
+.tabHeader .tabStripSpacer, 
+.tabFooter .tabStripSpacer {
+  border-color: #d0d0d0;
+  background-color: #eaeaea;
+}

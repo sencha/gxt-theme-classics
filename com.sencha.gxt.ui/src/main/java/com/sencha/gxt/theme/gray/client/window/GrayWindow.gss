@@ -1,0 +1,10 @@
+
+.body {
+  border: 0;
+  background: none;
+}
+
+.ghost ul {
+  background-color: #d7d7d7;
+  border-color: #a1a1a1;
+}

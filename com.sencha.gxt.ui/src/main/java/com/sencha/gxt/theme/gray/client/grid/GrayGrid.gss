@@ -1,0 +1,54 @@
+
+.rowHighlight {
+  border: 1px dotted #535353;
+}
+
+.rowAlt .cell {
+  background-color: #fafafa;
+}
+
+.rowOver .cell {
+  background-color: #eee;
+}
+
+.cell {
+  border-color: #fafafa #ededed #ededed;
+  border-right: 0 solid #ededed;
+}
+
+.row .grid-cellSelected {
+  background-color: #c9c9c9 !important;
+  color: #000;
+}
+
+.columnLines .cell {
+  border-right-color: #ededed;
+}
+
+.rowOver .cell, 
+.rowOver .rowWrap {
+  border-color: #ddd;
+}
+
+.rowWrap {
+  border-color: #fafafa #ededed #ededed;
+  border-right: 0 solid #ededed;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+}
+
+.grid-rowSelected .cell, 
+.grid-rowSelected .rowWrap {
+  background-color: #dfe8f6 !important;
+  border-color: #a3bae9;
+}
+
+.footer {
+  background: #f7f7f7 none repeat scroll 0 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  display: block;
+  overflow: hidden;
+  position: relative;
+}

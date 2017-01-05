@@ -1,0 +1,32 @@
+
+.slider {
+  gwt-sprite: "trackHorizontalLeft";
+  width: auto;
+}
+
+.end {
+  gwt-sprite: "trackHorizontalRight";
+  width: auto;
+  overflow: visible;
+}
+
+.end {
+  background-position: right;
+}
+
+.inner {
+  gwt-sprite: "trackHorizontalMiddle";
+  overflow: visible;
+}
+
+.thumb {
+  gwt-sprite: "thumbHorizontal";
+}
+
+.over {
+  gwt-sprite: "thumbHorizontalOver";
+}
+
+.drag {
+  gwt-sprite: "thumbHorizontalDown";
+}

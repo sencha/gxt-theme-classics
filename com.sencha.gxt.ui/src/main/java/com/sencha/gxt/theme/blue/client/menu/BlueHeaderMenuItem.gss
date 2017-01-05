@@ -1,0 +1,12 @@
+
+.menuText {
+  border-style: solid;
+  background: #d6e3f2;
+  border-color: #dae6f4 #99bbe8 #99bbe8 #dae6f4;
+  border-width: 1px;
+  margin: -2px -2px 0;
+  color: #15428b;
+  font: bold 10px tahoma, arial, verdana, sans-serif;
+  display: block;
+  padding: 3px;
+}

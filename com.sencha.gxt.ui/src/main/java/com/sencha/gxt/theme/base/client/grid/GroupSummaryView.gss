@@ -1,0 +1,4 @@
+
+.hideSummaries .summaryRow {
+  display: none;
+}

@@ -1,0 +1,33 @@
+
+.slider {
+  gwt-sprite: "trackVerticalTop";
+  height: auto;
+}
+
+.end {
+  gwt-sprite: "trackVerticalBottom";
+  height: auto;
+  overflow: visible;
+}
+
+.end {
+  background-position: bottom;
+}
+
+.inner {
+  gwt-sprite: "trackVerticalMiddle";
+  height: auto;
+  overflow: visible;
+}
+
+.thumb {
+  gwt-sprite: "thumbVertical";
+}
+
+.over {
+  gwt-sprite: "thumbVerticalOver";
+}
+
+.drag {
+  gwt-sprite: "thumbVerticalDown";
+}

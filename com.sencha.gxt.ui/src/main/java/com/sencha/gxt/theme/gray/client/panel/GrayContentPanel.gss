@@ -1,0 +1,11 @@
+
+.panel,
+.bodyWrap,
+.noHeader .bodyWrap
+{
+  border-color: #d0d0d0;
+}
+
+.body {
+  background-color: #fff;
+}

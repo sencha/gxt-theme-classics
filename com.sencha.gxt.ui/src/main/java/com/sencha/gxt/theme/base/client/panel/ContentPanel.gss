@@ -1,0 +1,32 @@
+
+.panel {
+  border-style: solid;
+  border-width: 0;
+  outline: 0 none;
+}
+
+.noHeader {
+}
+
+.header {
+  position: relative;
+}
+
+.noHeader .bodyWrap {
+  border-top: 1px solid;
+}
+
+.bodyWrap {
+  border-bottom: 1px solid;
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+.body {
+  overflow: hidden;
+  position: relative;
+}
+
+.footer {
+  position: relative;
+}

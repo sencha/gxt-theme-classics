@@ -1,0 +1,47 @@
+@def BORDER_COLOR #d0d0d0;
+@def BORDER_COLOR_LIGHT orange;
+@def BACKGROUND_COLOR_LIGHT #e7e7e7;
+
+.border {
+  border: 1px solid BORDER_COLOR !important;
+}
+
+.borderLeft {
+  border: none;
+  border-left: 1px solid BORDER_COLOR !important;
+}
+
+.borderRight {
+  border: none;
+  border-right: 1px solid BORDER_COLOR !important;
+}
+
+.borderTop {
+  border: none;
+  border-top: 1px solid BORDER_COLOR !important;
+}
+
+.borderBottom {
+  border: none;
+  border-bottom: 1px solid BORDER_COLOR !important;
+}
+
+.disabled {
+  color: gray !important;
+  cursor: default !important;
+}
+
+.disabled * {
+  cursor: default !important;
+}
+
+@if (is("user.agent", "ie8")) {
+  .disabled {
+    filter: alpha(opacity=60);
+  }
+}
+@else  {
+  .disabled {
+    opacity: 0.6;
+  }
+}

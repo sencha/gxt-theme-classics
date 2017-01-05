@@ -1,0 +1,94 @@
+
+.datePicker {
+  border-color: #343434;
+  background-color: #fff;
+}
+
+.daysWrap td {
+  gwt-sprite: "footer";
+  height: auto;
+}
+
+.middle, 
+.monthLeft, 
+.monthRight {
+  color: #fff;
+  font: bold 11px "sans serif", tahoma, verdana, helvetica;
+}
+
+.inner th {
+  background-color: #eaeaea;
+  border-bottom-color: #b6b6b6;
+  font: normal 10px arial, helvetica, tahoma, sans-serif;
+  color: #3a3a3a;
+}
+
+.inner td {
+  border-color: #fff;
+}
+
+.inner a {
+  font: normal 11px arial, helvetica, tahoma, sans-serif;
+  color: #000;
+}
+
+.dateActive {
+  color: #000;
+}
+
+.inner .dateSelected a {
+  background-color: #eaeaea;
+  border-color: #d0d0d0;
+}
+
+.dateToday a {
+  border-color: darkred;
+}
+
+.dateSelected span {
+  font-weight: bold;
+}
+
+.inner .datePrevious a, 
+.inner .dateNext a {
+  color: #aaa;
+}
+
+.dateDisabled a {
+  background-color: #eee;
+  color: #bbb;
+}
+
+.monthPicker {
+  background-color: #fff;
+}
+
+.monthPicker td {
+  font: normal 11px arial, helvetica, tahoma, sans-serif;
+}
+
+.monthButtons {
+  background-color: #eaeaea;
+}
+
+.monthButtons>td {
+  border-top-color: #cfcfcf;
+}
+
+.month a, 
+.year a {
+  color: #3c3c3c;
+}
+
+.monthSelected a {
+  background-color: #eaeaea;
+  border-color: #d0d0d0;
+}
+
+.monthSep {
+  border-right-color: #cfcfcf;
+}
+
+.bottom {
+  border-top-color: black;
+}

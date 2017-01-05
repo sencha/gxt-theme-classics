@@ -1,0 +1,12 @@
+
+.over {
+  background-color: #eee;
+}
+
+.drop {
+  background-color: #defadc;
+}
+
+.selected {
+  background-color: #d9e8fb !important;
+}

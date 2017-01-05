@@ -1,0 +1,18 @@
+@external x-toolbar-mark;
+
+.toolBar {
+  width: auto;
+  height: auto;
+  border: none;
+}
+
+.x-toolbar-mark {
+  border-width: 0 0 1px 0;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.x-toolbar-mark {
+  gwt-sprite: "background";
+  background-color: #f0f4f5;
+  height: auto;
+}

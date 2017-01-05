@@ -1,0 +1,38 @@
+@external noheader;
+
+.topLeft, 
+.top, 
+.topRight {
+  height: auto;
+}
+
+.topLeft {
+  border: none;
+}
+
+.noheader .topLeft, 
+.noheader .top {
+  height: 3px;
+  border: none;
+}
+
+.left {
+  background-color: #e6e6e6;
+  padding-left: 6px;
+}
+
+.right {
+  background-color: #e6e6e6;
+  padding-right: 6px;
+}
+
+.content {
+  padding-top: 0;
+  background: #e8e8e8 !important;
+}
+
+.bottom, 
+.bottomLeft, 
+.bottomRight {
+  height: 6px;
+}

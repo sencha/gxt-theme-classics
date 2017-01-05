@@ -1,0 +1,19 @@
+
+a.menuItem {
+  color: #222;
+}
+
+.menuListItem {
+  font: normal 11px tahoma, arial, sans-serif;
+}
+
+.menuItemArrow {
+  gwt-sprite: "menuParent";
+  height: auto;
+  width: auto;
+}
+
+.menuItemArrow {
+  background-position: right;
+  background-repeat: no-repeat;
+}

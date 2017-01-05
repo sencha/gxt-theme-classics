@@ -1,0 +1,26 @@
+
+.cursor {
+  cursor: default !important;
+}
+
+.proxy {
+  border: 1px dashed #3b5a82;
+  background-color: #c3daf9;
+  z-index: 20000;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: move;
+}
+
+@if (is("user.agent", "ie8")) {
+  .proxy {
+    filter: alpha(opacity=50);
+  }
+}
+@else  {
+  .proxy {
+    opacity: 0.5;
+  }
+}

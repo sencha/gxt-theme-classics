@@ -1,0 +1,9 @@
+
+.menuSep {
+  display: block;
+  font-size: 1px;
+  line-height: 1px;
+  margin: 2px 3px;
+  border-bottom: 1px solid;
+  overflow: hidden;
+}

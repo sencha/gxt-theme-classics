@@ -1,0 +1,29 @@
+
+.progressWrap {
+  border-color: #8c8c8c;
+}
+
+.progressInner {
+  gwt-sprite: "innerBar";
+  background-color: #e6e6e6;
+  height: auto;
+}
+
+.progressBar {
+  gwt-sprite: "bar";
+  background-color: #b9b9b9;
+  background-repeat: repeat-x;
+  background-position: left center;
+  height: 18px;
+  border-top-color: #e1e1e1;
+  border-bottom-color: #a3a3a3;
+  border-right-color: #a3a3a3;
+}
+
+.progressText {
+  color: #fff;
+}
+
+.progressTextBack {
+  color: #5a5a5a !important;
+}

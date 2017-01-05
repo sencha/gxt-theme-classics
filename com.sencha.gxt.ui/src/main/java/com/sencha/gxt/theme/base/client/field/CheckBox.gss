@@ -1,0 +1,28 @@
+@if (is("gxt.user.agent", "chrome") || is("user.agent", "safari")) {
+  .wrap input {
+    margin-left: 1px;
+  }
+}
+
+.wrap {
+  background-color: transparent;
+}
+
+.checkBoxLabel {
+  font: 12px tahoma, arial, helvetica, sans-serif;
+  padding-right: 10px;
+}
+
+.checkBoxLabel {
+  width: auto !important;
+  float: none !important;
+  clear: none !important;
+  display: inline !important;
+  margin-left: 4px;
+}
+
+@if (is("user.agent", "safari")) {
+  .wrap input:focus {
+    outline: auto !important;
+  }
+}

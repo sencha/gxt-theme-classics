@@ -1,0 +1,11 @@
+
+.infoTitle {
+  font-size: 13px;
+  margin: 4px;
+  font-weight: bold;
+}
+
+.infoMessage {
+  margin: 0 4px 4px 4px;
+  font-size: 12px;
+}

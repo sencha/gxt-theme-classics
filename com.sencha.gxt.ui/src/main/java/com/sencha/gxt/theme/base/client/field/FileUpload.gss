@@ -1,0 +1,37 @@
+
+.wrap {
+  height: 22px;
+  position: relative;
+}
+
+.input {
+  z-index: 3;
+  color: #777;
+}
+
+.file {
+  position: absolute;
+  right: 0;
+  z-index: 2;
+  height: 22px;
+  top: 0;
+  cursor: pointer;
+}
+
+@if (is("user.agent", "ie8")) {
+  .file {
+    filter: alpha(opacity=0);
+  }
+}
+@else  {
+  .file {
+    opacity: 0;
+  }
+}
+
+.buttonWrap {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  top: 0;
+}

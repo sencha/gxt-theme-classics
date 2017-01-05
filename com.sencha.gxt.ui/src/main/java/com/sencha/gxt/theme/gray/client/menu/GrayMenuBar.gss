@@ -1,0 +1,7 @@
+
+.menuBar {
+  gwt-sprite: "background";
+  height: auto;
+  background-color: #dbdbdb;
+  border-color: #bababa;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.7.0//EN"
+    "http://gwtproject.org/doctype/2.7.0/gwt-module.dtd">
+<module>
+  <inherits name='com.sencha.gxt.widget.core.Core' />
+  <inherits name='com.sencha.gxt.data.Data' />
+  <inherits name='com.sencha.gxt.ui.resources.Resources' />
+  <inherits name='com.sencha.gxt.theme.blue.Blue' />
+  <extend-property name="locale" values="de"/>
+  <extend-property name="locale" values="en_US"/>
+
+  <collapse-all-properties />
+</module>

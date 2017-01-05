@@ -1,0 +1,23 @@
+
+.menu {
+  gwt-sprite: "menu";
+  width: auto;
+  border-color: #718bb7;
+  background-color: #f0f0f0;
+}
+
+.plain {
+  background-color: #fff !important;
+}
+
+.menuScrollerTop {
+  gwt-sprite: "miniTop";
+}
+
+.menuScrollerBottom {
+  gwt-sprite: "miniBottom";
+}
+
+.menuScroller {
+  border-width: 1px 0;
+}

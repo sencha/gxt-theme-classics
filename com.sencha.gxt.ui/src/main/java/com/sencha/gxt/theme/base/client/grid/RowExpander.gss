@@ -1,0 +1,45 @@
+@def ROW_EXPAND eval('com.sencha.gxt.core.client.util.ImageHelper.createModuleBasedUrl("base/images/grid/row-expand-sprite.gif")');
+
+.hasExpander .grid-cell, 
+.hasExpander .grid-cellInner {
+  background: none repeat scroll 0 0 transparent;
+  border-width: 0;
+}
+
+.grid-rowWrap .cell {
+  gwt-sprite: "specialColumn";
+  vertical-align: top;
+  height: auto;
+  width: auto;
+}
+
+.grid-rowSelected .cell {
+  gwt-sprite: "specialColumnSelected";
+  height: auto;
+  width: auto;
+}
+
+.rowExpander {
+  width: 20px;
+  height: 18px;
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: ROW_EXPAND;
+}
+
+.rowCollapsed .rowExpander {
+  background-position: 4px 2px;
+}
+
+.rowExpanded .rowExpander {
+  background-position: -21px 2px;
+}
+
+.rowCollapsed .grid-rowBodyRow {
+  display: none;
+}
+
+.rowExpanded .grid-rowBodyRow {
+  display: table-row;
+}

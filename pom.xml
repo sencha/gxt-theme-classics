@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>9</version>
+  </parent>
+
+  <groupId>com.sencha.gxt</groupId>
+  <artifactId>gxt-theme-classics</artifactId>
+  <version>4.0.2</version>
+  <packaging>pom</packaging>
+  <name>GXT classic theme overriding</name>
+
+  <properties>
+    <!-- Global build versions -->
+    <java.version>1.7</java.version>
+    <gwt.version>2.7.0</gwt.version>
+    <gwt.plugin.version>2.7.0</gwt.plugin.version>
+
+    <!-- Global build settings -->
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+  </properties>
+
+  <modules>
+    <module>com.sencha.gxt.ui</module>
+  </modules>
+
+</project>

@@ -1,0 +1,53 @@
+
+.editor {
+  position: absolute;
+}
+
+.label {
+  padding: 2px 3px 3px 0;
+  font-size: 12px;
+}
+
+.outer {
+  border-top: 1px solid #c4c4c4;
+  border-bottom: 1px solid #a0a0a0;
+  background-color: #ebf2fc;
+}
+
+.inner {
+  border-top: 1px solid #f6f9fe;
+  border-bottom: 1px solid #d6e4f8;
+  padding: 0 0 0 0;
+}
+
+.body {
+  height: 25px;
+  position: relative;
+}
+
+.buttons {
+  position: absolute;
+  top: 27px;
+}
+
+.buttonsLeft {
+  gwt-sprite: "editorButtonLeft";
+  padding-left: value('editorButtonLeft.getWidth', 'px');
+  zoom: 1;
+  height: 31px;
+  width: auto;
+}
+
+.buttonsRight {
+  gwt-sprite: "editorButtonRight";
+  background-position: right 0;
+  padding-right: value('editorButtonRight.getWidth', 'px');
+  overflow: visible;
+  width: auto;
+  height: auto;
+}
+
+.buttonsContent {
+  gwt-sprite: "editorButtonBackground";
+  background-color: #ebf2fc;
+}

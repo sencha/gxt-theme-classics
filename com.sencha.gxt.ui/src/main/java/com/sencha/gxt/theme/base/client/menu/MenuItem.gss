@@ -1,0 +1,43 @@
+
+@if (is("user.agent", "gecko") || is("user.agent", "gecko1_8")) {
+  .menuItem {
+    outline-color: -moz-use-text-color;
+  }
+}
+
+.menuItem {
+  display: block;
+  line-height: 16px;
+  outline-style: none;
+  outline-width: 0;
+  padding: 3px 21px 3px 27px;
+  position: relative;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.menuListItem {
+  white-space: nowrap;
+  display: block;
+  padding: 1px;
+  cursor: pointer;
+}
+
+.menuItemIcon {
+  border: 0 none;
+  height: 16px;
+  padding: 0;
+  vertical-align: top;
+  width: 16px;
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  margin: 0;
+  background-position: center;
+}
+
+@if (is("user.agent", "ie8") || is("user.agent", "ie9")) {
+  .menuItemIcon {
+    vertical-align: middle;
+  }
+}

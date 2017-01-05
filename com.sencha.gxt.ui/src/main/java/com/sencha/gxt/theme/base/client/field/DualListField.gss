@@ -1,0 +1,24 @@
+
+.up {
+  gwt-sprite: "up";
+}
+
+.allRight {
+  gwt-sprite: "allRight";
+}
+
+.right {
+  gwt-sprite: "right";
+}
+
+.left {
+  gwt-sprite: "left";
+}
+
+.allLeft {
+  gwt-sprite: "allLeft";
+}
+
+.down {
+  gwt-sprite: "down";
+}

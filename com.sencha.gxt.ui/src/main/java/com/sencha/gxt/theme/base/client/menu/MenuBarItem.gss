@@ -1,0 +1,6 @@
+
+.menuBarItem {
+  font: 12px arial, verdana, sans-serif;
+  padding: 1px 8px;
+  display: inline;
+}

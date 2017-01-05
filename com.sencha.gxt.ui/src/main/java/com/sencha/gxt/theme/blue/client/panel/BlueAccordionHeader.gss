@@ -1,0 +1,14 @@
+
+.header {
+  gwt-sprite: "headerBackground";
+  padding-top: 4px;
+  padding-bottom: 3px;
+  border-top: 0 none;
+  background-position: 0 -9px;
+  height: auto;
+}
+
+.headerText {
+  color: #222;
+  font-weight: normal;
+}

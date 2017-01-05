@@ -1,0 +1,7 @@
+
+.menuBar {
+  border-style: solid;
+  border-width: 0 0 1px;
+  cursor: default;
+  padding: 3px;
+}

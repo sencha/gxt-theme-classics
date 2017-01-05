@@ -1,0 +1,21 @@
+
+.slider {
+  padding-left: halfThumb;
+  background: transparent no-repeat 0 -22px;
+}
+
+.end {
+  padding-right: halfThumb;
+  zoom: 1;
+  background: transparent no-repeat right -44px;
+}
+
+.inner {
+  background: transparent repeat-x 0 0;
+  height: 22px;
+}
+
+.thumb {
+  left: 0;
+  top: 3px;
+}

@@ -1,0 +1,5 @@
+
+.statusBox {
+  border: 1px solid;
+  border-color: #d0d0d0 #fff #fff #d0d0d0;
+}

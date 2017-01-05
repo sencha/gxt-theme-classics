@@ -1,0 +1,9 @@
+
+.fieldSet {
+  border-color: #b5b8c8;
+}
+
+.fieldSet legend {
+  font: bold 11px tahoma, arial, helvetica, sans-serif;
+  color: #15428b;
+}

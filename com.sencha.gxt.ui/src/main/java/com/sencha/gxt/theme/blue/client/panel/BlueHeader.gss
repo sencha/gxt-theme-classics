@@ -1,0 +1,13 @@
+
+.header {
+  gwt-sprite: "headerBackground";
+  color: #15428b;
+  font-weight: bold;
+  font-size: 11px;
+  font-family: tahoma,arial,verdana,sans-serif;
+  border-color: #99bbe8;
+  height: auto;
+  line-height: 15px;
+  border: 1px solid #99bbe8;
+  border-top: none;
+}
